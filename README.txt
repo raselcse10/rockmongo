@@ -74,4 +74,4 @@ Somebody who want to contribute to the project, may help us by doing these:
 
 Credit
 --------------------------------------
-Many thanks to https://github.com/viktor-poltorak/rockmongo for compatible for php7.0
+Many thanks to https://github.com/viktor-poltorak/rockmongo 

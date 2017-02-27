@@ -7,7 +7,7 @@
  * @version 1.1
  */
 
-$message["TRANSLATION_NAME"] = "English";
+$message["TRANSLATION_NAME"] = "বাংলা";
 $message["TRANSLATION_ID"] = 1;
 
 /** Login interface **/

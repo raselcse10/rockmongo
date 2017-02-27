@@ -11,12 +11,12 @@ $message["TRANSLATION_NAME"] = "বাংলা";
 $message["TRANSLATION_ID"] = 1;
 
 /** Login interface **/
-$message["admin"] = "Admin";
-$message["password"] = "Password";
-$message["language"] = "Language";
-$message["hour"] = "Hour";
+$message["admin"] = "এডমিন";
+$message["password"] = "পাসওয়ার্ড";
+$message["language"] = "ভাষা";
+$message["hour"] = "ঘণ্টা";
 $message["hours"] = "Hours";
-$message["month"] = "Month";
+$message["month"] = "মাস";
 $message["alive"] = "Alive";
 $message["authenticate"] = "Authenticate";
 

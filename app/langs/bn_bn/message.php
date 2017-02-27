@@ -15,21 +15,21 @@ $message["admin"] = "এডমিন";
 $message["password"] = "পাসওয়ার্ড";
 $message["language"] = "ভাষা";
 $message["hour"] = "ঘণ্টা";
-$message["hours"] = "Hours";
+$message["hours"] = "ঘন্টার";
 $message["month"] = "মাস";
-$message["alive"] = "Alive";
-$message["authenticate"] = "Authenticate";
+$message["alive"] = "জীবিত";
+$message["authenticate"] = "বিশুদ্ধতা প্রমাণ করা";
 
 /** Connection **/
 $message["can_not_connect"] = "MongoDB connection exception: %s. Please check your configuration.";
 $message["can_not_auth"] = "MongoDB authenticate failed. Please check your username and password from your mongo administrator.";
 
 /** Buttons and titles **/
-$message["default"] = "Default";
-$message["overview"] = "Overview";
-$message["server"] = "Server";
-$message["status"] = "Status";
-$message["databases"] = "Databases";
+$message["default"] = "ডিফল্ট";
+$message["overview"] = "সংক্ষিপ্ত বিবরণ";
+$message["server"] = "সার্ভার";
+$message["status"] = "অবস্থা";
+$message["databases"] = "ডেটাবেস";
 $message["processlist"] = "Processlist";
 $message["command"] = "Command";
 $message["execute"] = "Execute";

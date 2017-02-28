@@ -30,8 +30,6 @@ function r_show_more_options(btn) {
 }
 </script>
 
-
-
 <div class="container login-panel">
 	
 	<fieldset>
@@ -42,9 +40,6 @@ function r_show_more_options(btn) {
 		<legend>
 			Log in
 		</legend>
-		<!-- 
-		<h1>Welcome to MongoDB Administration</h1>
-		<div class="dotted"></div> -->
 
 		<?php if (isset($message)):?> 
 			<div class="errorMsg">
@@ -121,15 +116,11 @@ function r_show_more_options(btn) {
 			
 			<div class="item">
 				<button class="login-button"><?php hm("loginandrock"); ?></button>
-				<!-- <input type="submit" value="<?php hm("loginandrock"); ?>"/> -->
 			</div>
 
-		
 	<fieldset>	
-	
 			
 		</form>
-
 			
 		<?php hm("rockmongocredits") ?>
 

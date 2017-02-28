@@ -21,8 +21,8 @@ $message["alive"] = "জীবিত";
 $message["authenticate"] = "বিশুদ্ধতা প্রমাণ করা";
 
 /** Connection **/
-$message["can_not_connect"] = "MongoDB connection exception: %s. Please check your configuration.";
-$message["can_not_auth"] = "MongoDB authenticate failed. Please check your username and password from your mongo administrator.";
+$message["can_not_connect"] = "MongoDB সংযোগ ব্যতিক্রম হয়েছে:% s. আপনার কনফিগারেশন পরীক্ষা করুন.";
+$message["can_not_auth"] = "MongoDB অনুমোদন ব্যর্থ হয়েছে. আপনার mongo প্রশাসক থেকে আপনার ব্যবহারকারী নাম এবং পাসওয়ার্ড পরীক্ষা করুন।";
 
 /** Buttons and titles **/
 $message["default"] = "ডিফল্ট";
@@ -147,7 +147,7 @@ $message["querying"] = "অনুসন্ধান";
 $message["updating"] = "হাল নাগাদ করা হচ্ছে";
 $message["commands"] = "কমান্ড";
 $message["jsapi"] = "JS API";
-$message["phpmongo"] = "PHP Mongo";
+$message["phpmongo"] = "পিএইচপি মোঙ্গো";
 
 /** Replication **/
 $message["repstatus"] = "প্রতিলিপির অবস্থা";

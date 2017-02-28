@@ -128,93 +128,92 @@ $message["format"] = "বিন্যাস";
 $message["execute_command"] = "কমান্ড সঞ্চালন করুন";
 $message["validate"] = "সত্যতা সমর্থন করা";
 $message["dropifexists"] = "যদি বিদ্যমান থাকে তাহলে ড্রপ করুন?";
-$message["warningprops"] = "<strong>বিজ্ঞপ্তি</strong>: To change collection options, we will create a new collection, copy all data from old one, then drop old one. This will spend a long time to complete when you have a large collection.";
-$message["copycollection"] = "Copy Collection";
-$message["to"] = "To";
-$message["removeifexists"] = "Remove target if exists?";
-$message["selectdb"] = "Select Db";
+$message["warningprops"] = "<strong>বিজ্ঞপ্তি</strong>: সংগ্রহে অপশন পরিবর্তন করার জন্য, আমরা একটি নতুন সংগ্রহ তৈরি করব, পুরানো থেকে সব ডেটা কপি, তারপর পুরানোটি ড্রপ. এটি সম্পন্ন করার জন্য একটি দীর্ঘ সময় লাগবে যদি আপনার সংগ্রহ অনেক বড় হয়।";
+$message["copycollection"] = "অনুলিপি সংগ্রহ";
+$message["to"] = "থেকে";
+$message["removeifexists"] = "লক্ষ্য সরান যদি বিদ্যমান থাকে?";
+$message["selectdb"] = "Db নির্বাচন";
 
 /** Add user **/
-$message["users"] = "Users";
-$message["adduser"] = "Add User";
-$message["username"] = "UserName";
-$message["confirm_pass"] = "Confirm Password";
-$message["readonly"] = "Read Only?";
-$message["addreplace"] = "Add or Replace";
+$message["users"] = "ব্যবহারকারীরা";
+$message["adduser"] = "ব্যবহারকারী যুক্ত করুন";
+$message["username"] = "ব্যবহারকারীর নাম";
+$message["confirm_pass"] = "পাসওয়ার্ড নিশ্চিত করুন";
+$message["readonly"] = "শুধুমাত্র পাঠযোগ্য?";
+$message["addreplace"] = "যোগ অথবা প্রতিস্থাপন ";
 
 /** Manual links **/
-$message["querying"] = "Querying";
-$message["updating"] = "Updating";
-$message["commands"] = "Commands";
+$message["querying"] = "অনুসন্ধান";
+$message["updating"] = "হাল নাগাদ করা হচ্ছে";
+$message["commands"] = "কমান্ড";
 $message["jsapi"] = "JS API";
 $message["phpmongo"] = "PHP Mongo";
 
 /** Replication **/
-$message["repstatus"] = "Replication Status";
-$message["me"] = "Me";
+$message["repstatus"] = "প্রতিলিপির অবস্থা";
+$message["me"] = "আমাকে";
 
-$message["repair_database"] = "Repair Database";
-$message["response_from_server"] = "Response from Server";
+$message["repair_database"] = "ডেটাবেস মেরামত";
+$message["response_from_server"] = "সার্ভার থেকে রেসপন্স";
 
-$message["dropped_from_database"] = "is dropped from database";
+$message["dropped_from_database"] = "ডাটাবেস থেকে অবনমিত হয়েছে";
 
-$message["noqueryhistory"] = "No query history yet.";
-$message["requery"] = "Re-query";
+$message["noqueryhistory"] = "এখনো কোনো ক্যোয়ারী ইতিহাস নাই.";
+$message["requery"] = "পুনরাই-ক্যোয়ারী";
 
-$message["date"] = "Date";
-$message["change_level"] = "Change level";
-$message["clear_profile"] = "Are you sure to clear profile on db";
-$message["choose_profiling_level"] = "Choose current profiling level";
-$message["profiling_level1"] = "0 - off";
-$message["profiling_level2"] = "1 - log slow operations (>N ms)";
-$message["profiling_level3"] = "2 - log all operations";
-$message["timecost"] = "Time cost";
+$message["date"] = "তারিখ";
+$message["change_level"] = "স্তর পরিবর্তন";
+$message["clear_profile"] = "আপনি ডিবি প্রোফাইল পরিষ্কার করার ব্যাপারে নিশ্চিত";
+$message["choose_profiling_level"] = "বর্তমান প্রোফাইলিং স্তর বেছে নিন";
+$message["profiling_level1"] = "0 - বন্ধ";
+$message["profiling_level2"] = "1 - ধীর অপারেশন লগ ইন করুন(>N ms)";
+$message["profiling_level3"] = "2 - সব অপারেশন লগ করুন";
+$message["timecost"] = "সময় খরচ";
 
 /** Collection operations **/
-$message["submit_query"] = "Submit Query";
+$message["submit_query"] = "কুয়েরি সাবমিট";
 $message["explain"] = "ব্যাখ্যা করা";
-$message["clear_conditions"] = "Clear Conditions";
-$message["rows_per_page"] = "Rows per Page";
-$message["action"] = "Action";
-$message["limit"] = "Limit";
-$message["new_field"] = "New Field";
+$message["clear_conditions"] = "অবস্থা পরিষ্কার";
+$message["rows_per_page"] = "পৃষ্ঠা প্রতি সারি";
+$message["action"] = "কর্ম";
+$message["limit"] = "সীমা";
+$message["new_field"] = "নূতন ক্ষেত্র";
 
 /** Index Creation **/
-$message["warningindex"] = "Are you sure to drop the index";
-$message["createindex"] = "Create normal Index";
-$message["create_2d_index"] = "Create 2D Index";
-$message["2d_index_location_field"] = "Location Field";
-$message["2d_index_min_bound"] = "Min Bound";
-$message["2d_index_max_bound"] = "Max Bound";
-$message["2d_index_bit_precision"] = "Bit Precision";
+$message["warningindex"] = "আপনি ইনডেক্স ড্রপ করার বিষয়ে নিশ্চিত";
+$message["createindex"] = "স্বাভাবিক ইনডেক্স তৈরি করুন";
+$message["create_2d_index"] = "2D ইনডেক্স তৈরি করুন";
+$message["2d_index_location_field"] = "অবস্থান ফিল্ড";
+$message["2d_index_min_bound"] = "ন্যূনতম সীমা";
+$message["2d_index_max_bound"] = "সর্বোচ্চ সীমা";
+$message["2d_index_bit_precision"] = "বিট যথার্থ";
 
 /** Top bar **/
 $message["tools"] = "সরঞ্জামসমূহ";
 $message["manuals"] = "সহায়িকা";
 $message["logout"] = "প্রস্থান";
 
-$message["switch_hosts"] = "Switch Hosts";
+$message["switch_hosts"] = "Hosts পরিবর্তন";
 
 /** About **/
-$message["about_content"] = '<strong class="big">RockMongo</strong> is a MongoDB administration tool, written in PHP 5.
+$message["about_content"] = '<strong class="big">RockMongo</strong> একটি MongoDB অ্যাডমিনিস্ট্রেশন টুল, পিএইচপি 5 এ লেখা.
 
-<p>See <a href="http://rockmongo.com" target="_blank">http://rockmongo.com</a> for more details.</p>
+<p>দেখ <a href="http://rockmongo.com" target="_blank">http://rockmongo.com</a> আরো বিস্তারিত জানার জন্.</p>
 
-<p>If you have any questions, please send email to me: <a href="mailto:iwind.liu@gmail.com">iwind.liu@gmail.com</a> .</p>
+<p>যদি আপনার কোন প্রশ্ন থাকে, তাহলে দয়া করে আমাকে ইমেইল পাঠাতে: <a href="mailto:raselcse10@gmail.com">raselcse10@gmail.com</a> .</p>
 
-<p>Documents:<ul>
-<li><a href="http://rockmongo.com/wiki/changeLog" target="_blank">Changelog</a></li>
-<li><a href="http://rockmongo.com/wiki/configuration" target="_blank">Configuration</a></li>
+<p>কাগজপত্র:<ul>
+<li><a href="http://rockmongo.com/wiki/changeLog" target="_blank">পরিবর্তণের লগ</a></li>
+<li><a href="http://rockmongo.com/wiki/configuration" target="_blank">কনফিগারেশন</a></li>
 <li><a href="http://rockmongo.com/wiki/plugin" target="_blank">Plug-in</a></li>
-<li><a href="http://rockmongo.com/wiki/faq" target="_blank">FAQ</a></li>
-<li><a href="http://rockmongo.com/donation" target="_blank">Donation<br/><img src="http://www.paypal.com/en_US/i/btn/x-click-but04.gif"/></a></li>
-<li><a href="https://github.com/iwind/rockmongo/issues" target="_blank">Report an Issue</li>
+<li><a href="http://rockmongo.com/wiki/faq" target="_blank">অনবরত জিজ্ঞাসিত প্রশ্ন</a></li>
+<li><a href="https://github.com/iwind/rockmongo/issues" target="_blank">একটি সমস্যা রিপোর্ট</li>
 </ul></p>
 ';
 
 /** Login **/
-$message["loginandrock"] = "Login and Rock";
-$message["changeconfig"] = "You may change your username and password in config.php.";
-$message["rockmongocredits"] = "Powered by <a href=\"http://rockmongo.com\" target=\"_blank\">RockMongo</a> v" . (ROCK_MONGO_VERSION) . ", <a href=\"http://rockmongo.com/downloads\" target=\"_blank\">check out new version here.</a> &nbsp; [<a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=iwind%2eliu%40gmail%2ecom&lc=US&amount=10&item_name=RockMongo%20Project%20Donation&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest\">Donate 10 dollars</a>]";
+$message["loginandrock"] = "লগইন এবং রক";
+$message["changeconfig"] = "আপনি config.php ফাইলটি আপনার ব্যবহারকারীর নাম ও পাসওয়ার্ড পরিবর্তন করতে পারেন.";
+$message["rockmongocredits"] = "দ্বারা চালিত <a href=\"http://rockmongo.com\" target=\"_blank\">RockMongo</a> v" . (ROCK_MONGO_VERSION) . ", <a href=\"http://rockmongo.com/downloads\" target=\"_blank\">এখানে নতুন সংস্করণ চেক আউট.</a> &nbsp; [<a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=iwind%2eliu%40gmail%2ecom&lc=US&amount=10&item_name=RockMongo%20Project%20Donation&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest\">10 ডলার অনুদান</a>]";
 
 ?>

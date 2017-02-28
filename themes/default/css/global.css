@@ -1,6 +1,6 @@
 * {font-size:12px; font-family:'Courier New', Arial}
 html,body {height:100%}
-body {margin:0; padding:0;}
+body {margin:0; padding:0; font-family: sans-serif; color: #444;}
 a { text-decoration:none; color:#004499; line-height:1.5 }
 a:hover {color:blue}
 
@@ -61,3 +61,119 @@ img {border:0}
 .top-page select { height:18px; background-color:#ccc; border:0 }
 .top-page .left {float:left}
 .top-page .right {float:right}
+
+div.container {
+	text-align: left;
+}
+.errorMsg {
+	border-radius:5px;
+	color: #000;
+	background: #FFC0CB;
+	padding: 3px;
+	margin-bottom: 7px;
+}
+.container {
+	text-align: left;
+	width: 30%;
+	margin: 0 auto;
+}
+.container h1{
+	display: block;
+	text-align: center;
+}
+h1 {
+	font-size: 140%;
+	font-weight: bold;
+}
+fieldset {
+	margin-top: 1em;
+	border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	border: #aaa solid 1px;
+	padding: 1.5em;
+	background: #eee;
+	text-shadow: 1px 1px 2px #fff inset;
+	-moz-box-shadow: 1px 1px 2px #fff inset;
+	-webkit-box-shadow: 1px 1px 2px #fff inset;
+	box-shadow: 1px 1px 2px #fff inset;
+}
+fieldset legend {
+	font-weight: bold;
+	color: #444;
+	padding: 5px 10px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 1px solid #aaa;
+	background-color: #fff;
+	-moz-box-shadow: 3px 3px 15px #bbb;
+	-webkit-box-shadow: 3px 3px 15px #bbb;
+	box-shadow: 3px 3px 15px #bbb;
+	max-width: 100%;
+}
+form.login label {
+	float: left;
+	width: 10em;
+	font-weight: bolder;
+}
+form.login input[type="text"], form.login input[type="password"], form.login select {
+	width: 14em;
+}
+input[type="text"], input[type="password"], input[type="number"], input[type="date"], select {
+	transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+}
+input[type="text"], input[type="password"], input[type="number"], input[type="date"], input[type="checkbox"], select {
+	margin: 6px;
+}
+input[type="text"], input[type="password"], input[type="number"], input[type="date"] {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background: white;
+	border: 1px solid #aaa;
+	color: #555;
+	padding: 4px;
+}
+input, select, textarea {
+	font-size: 1em;
+}
+.login-panel {
+	padding:10px;
+}
+.loginsubmit {
+	background: #6AAF4E;
+	color: #fff;
+}
+.dotted{
+	border-bottom: 1px solid #2B2C2E;
+	margin-bottom: 10px;
+}
+.select-list {
+	widows: 100%;
+}
+.login-button {
+	margin-left: 40% !important;
+	border: 1px solid #aaa;
+	padding: 3px 7px;
+	color: #111;
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: 700;
+	text-shadow: 0 1px 0 #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,24 +11,24 @@ function showServerMenu(link) {
 }
 </script>
 
-<div class="top top-page">
+<div class="top top-page top-menu-bar">
 	<div class="left">
-		<select name="host" onchange="window.parent.location='<?php h(url("admin.changeHost")); ?>&index='+this.value" title="<?php hm("switch_hosts"); ?>">
+		<select name="host" class="menubar-link" onchange="window.parent.location='<?php h(url("admin.changeHost")); ?>&index='+this.value" title="<?php hm("switch_hosts"); ?>">
 		<?php foreach ($servers as $index => $server):?>
-		<option value="<?php h($index);?>" <?php if($index == $serverIndex): ?>selected="selected"<?php endif;?>><?php h(isset($server["mongo_name"]) ? $server["mongo_name"] : "");?></option>
+		<option class="menubar-link" value="<?php h($index);?>" <?php if($index == $serverIndex): ?>selected="selected"<?php endif;?>><?php h(isset($server["mongo_name"]) ? $server["mongo_name"] : "");?></option>
 		<?php endforeach; ?>
 		</select>
-		| <a href="#" onclick="showServerMenu(this);return false;"><?php hm("tools");?> <span style="font-size:11px">▼</span></a> <?php if(!is_null($isMaster)): ?>| <?php if($isMaster):?><a href="<?php h(url("server.replication")); ?>" target="right" title="<?php hm("master"); ?>"><?php hm("master"); ?></a><?php else:?><a href="<?php h(url("server.replication")); ?>" target="right" title="<?php hm("slave"); ?>"><?php hm("slave"); ?></a><?php endif;?><?php endif;?>
+		| <a href="#" class="menubar-link" onclick="showServerMenu(this);return false;"><?php hm("tools");?> <span class="menubar-link">▼</span></a> <?php if(!is_null($isMaster)): ?>| <?php if($isMaster):?><a href="<?php h(url("server.replication")); ?>" target="right" class="menubar-link" title="<?php hm("master"); ?>"><?php hm("master"); ?></a><?php else:?><a href="<?php h(url("server.replication")); ?>" target="right" title="<?php hm("slave"); ?>"><?php hm("slave"); ?></a><?php endif;?><?php endif;?>
 	</div>
 
 	<div class="right">
 		
-		<?php h($admin);?> | <a href="#" onclick="showManuals(this);return false;"><?php hm("manuals");?> <span style="font-size:11px">▼</span></a> | 
-		<a href="<?php h(url("plugins.index")) ?>" target="right">Plugins</a> |  
-		<a href="<?php h($logoutUrl);?>" target="_top"><?php hm("logout"); ?></a> | 
+		<span class="menubar-link"><?php echo ucfirst($admin) ;?></span> | <a href="#" class="menubar-link" onclick="showManuals(this);return false;"><?php hm("manuals");?> <span class="menubar-link">▼</span></a> | 
+		<a class="menubar-link" href="<?php h(url("plugins.index")) ?>" target="right">Plugins</a> |  
+		<a class="menubar-link" href="<?php h($logoutUrl);?>" target="_top"><?php hm("logout"); ?></a> | 
 		<?php render_select("language", rock_load_languages(), __LANG__, array( "style" => "width:100px", "onchange" => "window.top.location='index.php?action=admin.changeLang&lang='+this.value" )); ?>  | 
 
-		<a href="<?php h(url("admin.about")); ?>" target="right">RockMongo v<?php h(ROCK_MONGO_VERSION);?></a>
+		<a class="menubar-link" href="<?php h(url("admin.about")); ?>" target="right">RockMongo v<?php h(ROCK_MONGO_VERSION);?></a>
 	
 	</div>
 

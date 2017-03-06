@@ -3,7 +3,9 @@ html,body {height:100%}
 body {margin:0; padding:0; font-family: sans-serif; color: #444;}
 a { text-decoration:none; color:#004499; line-height:1.5 }
 a:hover {color:blue}
-
+.left a span,.left select {
+	font-size: 14px;
+}
 /** select options **/
 .select_hosts { width:150px; }
 
@@ -13,8 +15,17 @@ a:hover {color:blue}
 blockquote { padding:0px; margin:0; border:1px #ccc solid; background-color:#eee }
 .error { padding:0px; margin:10px 0; border:1px #ccc solid; background-color:#eee;color:red }
 .message { padding:0px; margin:10px 0; border:1px #ccc solid; background-color:#eee;color:green }
-.operation {padding:3px;border-bottom:1px #999 solid;margin-bottom:5px;}
-.operation a {font-size:12px;}
+.operation {
+    padding: 3px;
+    border-bottom: 1px #999 solid;
+    margin-bottom: 5px;
+    background: #b2b2b2;
+    box-shadow: 0px 0px 1px #888 inset;
+}
+.menubar-link {
+	font-size: 14px;
+}
+.operation a {font-size:12px; color: #004499;}
 .operation a.current { font-weight:bold;text-decoration:underline }
 .gap {height:20px}
 .big {font-size:14px}
@@ -57,10 +68,26 @@ img {border:0}
 .leftbar-page .dbs .collections { }
 
 /** topbar **/
-.top-page {border-bottom:1px #666 solid; background-color:#ccc; }
+.top-page {border-bottom:1px #666 solid; }
 .top-page select { height:18px; background-color:#ccc; border:0 }
 .top-page .left {float:left}
 .top-page .right {float:right}
+
+/*.top-menu-bar, .top-page select{
+	background: #FFFFFF;
+	color:#333;
+	min-height: 50px !important;
+	display: block;
+	margin-bottom: 10px;
+	border:0
+}
+*/
+
+
+/**
+ * 	Login 
+ */
+
 
 div.container {
 	text-align: left;
@@ -71,6 +98,13 @@ div.container {
 	background: #FFC0CB;
 	padding: 3px;
 	margin-bottom: 7px;
+    text-align: justify !important;
+    word-spacing: -1px;
+    text-align: left;
+    word-wrap: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px !important;
 }
 .container {
 	text-align: left;
@@ -166,14 +200,19 @@ input, select, textarea {
 	text-shadow: 0 1px 0 #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
+#top-pane  {
+	background-image: url(./themes/svg_gradient.php?from=ffffff&to=dcdcdc);
+	background-size: 100% 100%;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#B7B7B7));
+	background: -webkit-linear-gradient(top, #f6f6f6, #B7B7B7);
+	background: -moz-linear-gradient(top, #f6f6f6, #B7B7B7);
+	background: -ms-linear-gradient(top, #f6f6f6, #B7B7B7);
+	background: -o-linear-gradient(top, #f6f6f6, #B7B7B7);
+	border-top: 1px solid #aaa;
+}
+#top-pane {
+    height: 32px !important;
+    //background: #B7B7B7;
+    //box-shadow: 0px 0px 2px #666 inset;
+}
 

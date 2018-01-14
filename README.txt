@@ -7,7 +7,7 @@ Installation
 --------------------------------------
 1. Install PHP runtime environment if you don't have one yet, such like Apache Httpd, Nginx ...
 2. Install MongoDB PHP driver (http://us.php.net/manual/en/mongodb.installation.php)
-3. Run "git clone git@github.com:viktor-poltorak/rockmongo.git"
+3. Run "git clone git@github.com:raselcse10/rockmongo.git"
 5. Open the config.php with your convenient editor, change host, port, admins and so on to yours
 6. Install comproser (https://getcomposer.org/doc/00-intro.md)
 7. Run "composer install"
